@@ -1,44 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Majestic Kids Collection - Kolhapur</title>
+    <title>Product Store</title>
     <style>
-        body{font-family:Poppins,sans-serif;margin:0;padding:0;background:#fff;color:#333;text-align:center}
-        header{background:#ff4081;color:white;padding:15px}
-        .container{padding:20px}
-        .products{display:flex;flex-wrap:wrap;justify-content:center;gap:15px}
-        .card{border:1px solid #ddd;padding:10px;width:150px;border-radius:8px}
-        .footer{margin-top:20px;padding:10px;background:#222;color:#fff}
-        a{color:#ff4081;text-decoration:none;font-weight:bold}
+        body { font-family: Arial, sans-serif; background:#f7f7f7; margin:0; padding:0; }
+        .header { background:#222; color:white; padding:20px; text-align:center; font-size:24px; }
+        .container { max-width:1200px; margin:auto; padding:20px; display:flex; flex-wrap:wrap; gap:20px; }
+        .card { background:white; width:280px; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.1); padding:15px; }
+        .card img { width:100%; border-radius:10px; }
+        .title { font-size:20px; font-weight:600; margin:10px 0; }
+        .price { color:#28a745; font-size:18px; margin-bottom:10px; }
+        .btn { background:#ff5722; color:white; padding:10px 15px; text-align:center; display:block; border-radius:8px; text-decoration:none; font-size:16px; }
+        .btn:hover { background:#e64a19; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Majestic Kids Collection</h1>
-    <p>Kids Fashion Store • Kolhapur</p>
-</header>
+    <div class="header">My Product Store</div>
 
-<div class="container">
-    <h3>Our Products</h3>
-    <div class="products">
-        <div class="card">Product 1</div>
-        <div class="card">Product 2</div>
-        <div class="card">Product 3</div>
-        <div class="card">Product 4</div>
-        <div class="card">Product 5</div>
-        <div class="card">Product 6</div>
+    <div class="container">
+
+        <!-- PRODUCT 1 -->
+        <div class="card">
+            <img src="product1.jpg" alt="Product">
+            <div class="title">Product Name</div>
+            <div class="price">₹299</div>
+            <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20to%20buy%20Product">Order on WhatsApp</a>
+        </div>
+
+        <!-- PRODUCT 2 -->
+        <div class="card">
+            <img src="product2.jpg" alt="Product">
+            <div class="title">Second Product</div>
+            <div class="price">₹499</div>
+            <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20to%20buy%20Second%20Product">Order on WhatsApp</a>
+        </div>
+
     </div>
-
-    <h3>Contact</h3>
-    <p>Email: <b>jaloreking@gmail.com</b></p>
-    <p>Instagram: <a href="https://instagram.com/majestic_kids" target="_blank">@majestic_kids</a></p>
-    <p><a href="https://www.google.com/maps" target="_blank">📍 Open Google Map</a></p>
-</div>
-
-<div class="footer">© 2025 Majestic Kids Collection | Kolhapur</div>
 
 </body>
 </html>
